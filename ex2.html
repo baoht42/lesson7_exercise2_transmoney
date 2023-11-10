@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TransMoney</title>
+</head>
+<body>
+<table>
+      <tr>
+          <th>Amount</th>
+          <th>From Currency</th>
+          <th>To Currency</th>
+      </tr>
+    <tr>
+        <td>
+            <input type="text" id="mount">
+        </td>
+        <td>
+            <select  id="from">
+                <option value="1">VND</option>
+                <option value="23000">USD</option>
+            </select>
+
+        </td>
+        <td>
+            <select  id="to">
+                <option value="1">VND</option>
+                <option value="23000">USD</option>
+            </select>
+        </td>
+        <td>
+            <button id="convert" onclick="trans()">Convert</button>
+        </td>
+    </tr>
+
+</table>
+<p style="color: blue" id="result"></p>
+<script src="ex2.js"></script>
+</body>
+</html>
